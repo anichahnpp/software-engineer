@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:white;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.loginbox{
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    display: table;
+    width: 700px;
+
+}
+    .loginbox .cmulogo{
+        height: 400px;
+        display: block;
+    } 
+    .loginbox h1{
+        margin-top:-300px;
+        float: right;
+
+    }     
+    .loginbox h2{
+        margin-top:-265px;
+        float: right;
+    }  
+
+.inputbox{
+    float: right;
+    margin-top: -230px;
+}
+    .inputbox li input{
+        font-style: italic;
+    }
+    .inputbox ul li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .inputbox .btn{
+        float: right;
+    }
+    .inputbox .newacctext{
+
+        font-size: 10px;
+    }
+    a.newacc{
+        color: rgb(28, 134, 196);
+        text-decoration: none;
+        font-size: 14px;
+    }
+        a.newacc:hover {     
+            color: #b463d4;
+        }
+
+.success {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    background: #dff0d8;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}

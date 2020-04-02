@@ -1,0 +1,155 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    nav{
+        text-transform: uppercase;
+        height: 0px;
+        float: right;
+        font-size: 20px;
+    }
+        nav ul{
+            margin: 0 10px;
+            padding: 10px;
+            list-style: none;
+        }
+
+        nav li{
+           
+            display: inline-block;
+            
+        }
+        nav a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+          
+          /* Change the color of links on hover */
+        nav a:hover {
+            background-color: #b463d4;
+            color: white;
+        }
+          
+          /* Add a color to the active/current link */
+        nav a.active {
+            background-color: #9b59b6;
+            color: white;
+        }
+
+    .logo{
+        float: left;
+        height: 100px;
+    }
+    
+
+    .main_header{
+        color:black
+    }
+        .main_header h1{
+            margin: 0 110px;
+            
+        }
+        .main_header h2{
+            margin: 0 110px;
+        }
+
+.profile{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 400px;
+}
+.gradename {
+    
+    margin-top: 40px;
+}
+    .gradename ul{
+        font-size: 20px;
+        margin: 0 0 0 0px;
+        padding: 0;
+    }
+
+.indexname ul
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    list-style: none;
+    padding:0;
+}
+.name{
+    color: #9b59b6;
+}
+    .name li{
+        display: inline;
+    }
+.flex td{
+    vertical-align: top;
+    padding: 0;
+    /* border-style: dotted; */
+    margin: 0;
+    width: 50vw;
+    
+}
+    .tgrade{
+        margin: 0;
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    .tgrade td, .tgrade th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+        .tgrade th {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .tgrade tr:nth-child(even) {
+            background-color: rgba(192, 189, 189, 0.747);
+        }
+.ven {
+    width: 500px;
+    height: 286px;
+    /* border-style: dotted; */
+    margin-left: 10%;
+    margin-top: -100px;
+    background-size: 500px 286px;
+}   
+    .ven span {
+        /* position: absolute; */
+        /* border-style: dotted; */
+    }
+    .ven .redven{
+        /* border-style: dotted; */
+        top: 320px;
+    }
+
+    .ven img {
+        /* border-style: dotted; */
+        width: 500px;
+        display: block;
+        /* margin-right: auto; */
+        
+    }
+
+.tire {
+    width: 600px;
+}

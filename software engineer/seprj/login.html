@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>login</title>
+        <link rel="stylesheet" type="text/css" href="style_login.css">
+        <link href="https://fonts.googleapis.com/css?family=Mitr:600&display=swap" rel="stylesheet">
+        <script>
+            function login(){
+                window.location.assign("index.html")
+                console.log("logIN");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div>
+                <img src="https://www.img.in.th/images/e71f389bde44cd1e6e27cceea00a64a1.png" class="cmulogo">
+            </div>
+            <div>
+                <h1>ระบบวิเคราะห์ปัจจัย</h1>
+                <h2>การไม่สำเร็จการศึกษา</h2>
+            </div>
+            <form class="inputbox" action="php/login.php" method='POST'>
+                <ul>
+                    <li>Username</li>
+                    <li><input class ="username" name='username' type="text" placeholder="Username"></li>
+                    <li>Password</li>
+                    <li><input class ="password" name='password' type="password" placeholder="Password"></li>
+                    <li class="newacctext">Have any account?<a class ="newacc" href="regist.php"> Sign up</a></li>
+                    <button class = "btn" >Login</button>
+                </ul>
+            </form>
+        </div>
+    </body>
+</html>

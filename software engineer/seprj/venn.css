@@ -1,0 +1,35 @@
+#venn div{
+    height: 360px;
+    width: 300px;
+    border-radius:180px;
+ 
+    border: 1px solid #000;
+    display: table;
+    float: left;
+    opacity: .6;
+}
+    #venn div:nth-child(1){
+        background-color: #FF0000;
+        color: #FFF;
+        padding-right: 60px;
+    }
+
+    #venn div:nth-child(2){
+        background-color: grey;
+        color: #FFF;
+        margin-left: -100px;
+        padding-left: 60px;
+    }
+    #venn #overlap{
+        
+        border: 0;
+        height: 30px;
+        width: 30px;
+        left: -350px;
+        top: 150px;
+        color: #ccc;
+        position: relative;
+        text-align: center;
+        z-index: 10;
+        opacity: 1;
+    }
